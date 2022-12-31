@@ -44,7 +44,7 @@ h2 {
 h1 {
     color: #2e2cc8;
     margin: 10px auto;
-    font-size: calc(4.625rem + 1vw);
+    font-size: calc(3.625rem + 2vw);
     font-family: 'Sacramento', cursive;
 }
 
