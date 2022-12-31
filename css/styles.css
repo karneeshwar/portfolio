@@ -35,7 +35,7 @@ body {
 h2 {
     color: #2e2cc8;
     margin: 0px auto;
-    font-size: 250%;
+    font-size: 3vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     line-height: 2;
@@ -44,7 +44,7 @@ h2 {
 h1 {
     color: #2e2cc8;
     margin: 10px auto;
-    font-size: 562.5%;
+    font-size: 6vw;
     font-family: 'Sacramento', cursive;
 }
 
@@ -52,6 +52,7 @@ h3 {
     color: #2e2cc8;
     margin: 50px auto 0 auto;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
 }
 
 .starting-block {
