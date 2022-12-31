@@ -26,16 +26,16 @@ body {
 }
 
 .pguy {
-    /* max-width: 35%;
-    max-height: 35%; */
-    height: 500px;
-    width: 500px;
+    max-width: 35%;
+    max-height: 35%;
+    /* height: calc(31.25em + 1vw);
+    width: calc(31.25em + 1vw); */
 }
 
 h2 {
     color: #2e2cc8;
     margin: 0px auto;
-    font-size: 2.5rem;
+    font-size: calc(1.5rem + 1vw);
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     line-height: 2;
@@ -44,7 +44,7 @@ h2 {
 h1 {
     color: #2e2cc8;
     margin: 10px auto;
-    font-size: 5.625rem;
+    font-size: calc(4.625rem + 1vw);
     font-family: 'Sacramento', cursive;
 }
 
