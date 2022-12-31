@@ -5,31 +5,24 @@ body {
 }
 
 .top-qr {
-    max-height: 10%;
-    max-width: 10%;
+    height: 5.5vw;
+    width: 5.5vw;
     position: absolute;
     right: 10%;
     top: 10%;
 }
 
 .bottom-qr {
-    max-height: 10%;
-    max-width: 10%;
+    height: 4vw;
+    width: 4vw;
     position: absolute;
     left: 10%;
     top: 35%;
 }
 
-.intro-text {
-    position: relative;
-    margin: auto;
-}
-
 .pguy {
-    max-width: 35%;
-    max-height: 35%;
-    /* height: 500px;
-    width: 500px; */
+    height: 32vw;
+    width: 32vw;
 }
 
 h2 {
@@ -43,14 +36,14 @@ h2 {
 
 h1 {
     color: #2e2cc8;
-    margin: 10px auto;
+    margin: 0.625vw auto;
     font-size: 6vw;
     font-family: 'Sacramento', cursive;
 }
 
 h3 {
     color: #2e2cc8;
-    margin: 50px auto 0 auto;
+    margin: 3.125vw auto 0 auto;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5vw;
 }
@@ -58,7 +51,7 @@ h3 {
 .starting-block {
     background-color: #C0DEFF;
     position: relative;
-    padding-top: 100px;
+    padding-top: 6.25vw;
 }
 
 .profile-img{
