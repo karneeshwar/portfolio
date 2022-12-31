@@ -26,10 +26,10 @@ body {
 }
 
 .pguy {
-    max-width: 35%;
-    max-height: 35%;
-    /* height: calc(31.25em + 1vw);
-    width: calc(31.25em + 1vw); */
+    /* max-width: 35%;
+    max-height: 35%; */
+    height: calc(31.25em + 1vw);
+    width: calc(31.25em + 1vw);
 }
 
 h2 {
