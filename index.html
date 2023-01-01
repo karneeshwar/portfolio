@@ -18,33 +18,33 @@
     <nav class="navbar fixed-top navbar-expand-md navbar-my-font">
         <div class="container">
             <a class="navbar-brand" href="#home"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#home">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#skills">Skills</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#education">Education</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#workex">Work Experience</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#projects">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="https://drive.google.com/file/d/1Ey6DaQOjnoc_CgVxAetBBdb7FoaZr5sk/view?usp=sharing">Resume</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active">Contact</a>
-                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#workex">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://drive.google.com/file/d/1Ey6DaQOjnoc_CgVxAetBBdb7FoaZr5sk/view?usp=sharing">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -79,15 +79,15 @@
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <h2 class="my-h2 my-h2-padding">Education</h2>
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
             </div>
             <div class="carousel-inner my-carousel">
               <div class="carousel-item active">
                 <div class="mx-auto c-card">
                     <div class="row">
                         <div class="col-lg">
-                            <div class="card">
+                            <div class="card h-100">
                                 <div>
                                     <img src="assets/utd.png" class="card-img-top education-card-img" alt="utd-logo">
                                 </div>
@@ -104,13 +104,13 @@
                 <div class="mx-auto c-card">
                     <div class="row">
                         <div class="col-lg">
-                            <div class="card">
+                            <div class="card h-100">
                                 <div>
                                     <img src="assets/nitt.jpeg" class="card-img-top education-card-img" alt="nitt-logo">
                                 </div>
                                 <div class="card-body">
                                   <h5 class="card-title">National Institute of Technology, Trichy</h5>
-                                  <p class="card-text">Bachelor of Technology</p>
+                                  <p class="card-text">Bachelor of Technology, Engineering</p>
                                 </div>
                               </div>
                         </div>
@@ -119,11 +119,11 @@
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="carousel-control-prev-icon"></span>
               <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="carousel-control-next-icon"></span>
               <span class="visually-hidden">Next</span>
             </button>
         </div>
@@ -134,25 +134,42 @@
         <h2 class="my-h2 my-h2-padding">Work Experience</h2>
         <div class="container">
             <div class="row">
-                <div class="col-lg">
-                    <div class="card">
+                <div class="col-lg p-5">
+                    <div class="card h-100 p-1 my-work-card">
                         <div>
                             <img src="assets/copart.png" class="card-img-top work-card-img" alt="utd-logo">
                         </div>
                         <div class="card-body">
-                          <h5 class="card-title">Copart, Inc</h5>
-                          <p class="card-text">Data Scientist Intern</p>
+                          <h4 class="card-title">Copart, Inc</h4>
+                          <h5 class="card-title">Data Scientist Intern</h5>
+                          <p class="card-text">
+                            <ul class="card-my-ul">
+                                <li>Performed Descriptive/Predictive Time-Series Analysis on the data gathered through the different business
+                                    processes, used Python Data Science toolkit to access database, develop pipelines for time-series prediction and
+                                    draw inferences on the result</li>
+                                <li>Developed APIs using Flask to process a variety of new data based on user requests as an additional feature to an
+                                    existing vehicle damage score prediction model</li>
+                            </ul>
+                          </p>
                         </div>
                       </div>
                 </div>
-                <div class="col-lg">
-                    <div class="card">
+                <div class="col-lg p-5">
+                    <div class="card h-100 p-1 my-work-card">
                         <div>
                             <img src="assets/rntbci-small.png" class="card-img-top work-card-img" alt="utd-logo">
                         </div>
                         <div class="card-body">
-                          <h5 class="card-title">Renault Nissan Technology Business Center India</h5>
-                          <p class="card-text">Engineer (Automation and Anlytics)</p>
+                          <h4 class="card-title">Renault Nissan Technology Business Center India</h4>
+                          <h5 class="card-title">Engineer (Automation and Analytics)</h5>
+                          <p class="card-text">
+                            <ul class="card-my-ul">
+                                <li>Developed scripts in Python to automate post-processing of several simulated crash test results in Meta-post,
+                                    reduced lead time of projects by 40%</li>
+                                <li>Saved 1.5M Euros in material and tool cost by developing a linear regression model based on the previous vehicle
+                                    performance data to predict the design parameters for new vehicle projects in the same platform</li>
+                            </ul>
+                          </p>
                         </div>
                       </div>
                 </div>
@@ -165,9 +182,26 @@
         <h2 class="my-h2 my-h2-padding">Projects</h2>
     </div>
 
+    <div class="modal fade" id="exampleModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title modal-h2" id="exampleModalLabel">Contact Me</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <a class="footer-link" href="https://www.linkedin.com/in/karneeshwar"><i class="bi bi-linkedin my-icon"></i></a>
+                    <a class="footer-link" href="https://www.github.com/karneeshwar"><i class="bi bi-github my-icon" style="color: black;"></i></a>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
+           </div>
+        </div>
+    </div>
+
     <div class="my-footer">
-        <!-- <a class="footer-link" href="https://www.linkedin.com/in/karneeshwar"><i class="bi bi-linkedin my-icon"></i></a>
-        <a class="footer-link" href="https://www.github.com/karneeshwar"><i class="bi bi-github my-icon" style="color: black;"></i></a> -->
         <p class="my-p">Made with <i class="bi bi-heart-fill" style="color: red;"></i> by</p>
         <p class="my-p">Karneeshwar Sendilkumar Vijaya</p>
     </div>

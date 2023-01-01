@@ -134,6 +134,7 @@
 
 .footer-link {
     margin: 75px;
+    text-align: left;
 }
 
 .my-footer {
@@ -154,4 +155,23 @@
     height: 50%;
     width: 50%;
     margin-top: 30px;
+}
+
+.card-my-ul {
+    text-align: left;
+}
+
+.modal-h2 {
+    color: #2e2cc8;
+    font-size: calc(1.5rem + 1vw);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+.my-work-card {
+    transition: 0.3s;
+}
+
+.my-work-card:hover {
+    transform: scale(1.15);
 }
