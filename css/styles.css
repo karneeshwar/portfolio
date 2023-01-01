@@ -95,6 +95,18 @@
     color: #2e2cc8 !important;
 }
 
+.education-card-img {
+    height: 200px;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.work-card-img {
+    height: 200px;
+    width: 300px;
+    margin: 10px auto;
+}
+
 .my-carousel {
     height: 480px;
 }
@@ -120,8 +132,22 @@
     margin: 75px;
 }
 
-.contact {
+.my-footer {
     background-color: #C0DEFF;
     padding-top: 3vw;
     padding-bottom: 3vw;
+}
+
+.card-img-top {
+    flex-grow: 1;
+    object-fit:contain;
+}
+.card-body{
+    flex-grow:0;
+}
+
+.c-card {
+    height: 50%;
+    width: 50%;
+    margin-top: 50px;
 }
