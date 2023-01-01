@@ -72,6 +72,12 @@
     padding-bottom: 6.25vw;
 }
 
+.wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
 .my-hr {
     border-style: dotted none none;
     width: 10%;
