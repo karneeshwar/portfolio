@@ -1,4 +1,4 @@
-body {
+#actual-body {
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -21,19 +21,25 @@ body {
     transform: rotate(180deg);
 }
 
+.pguy {
+    height: calc(20em + 10vw);
+    width: calc(20em + 10vw);
+    text-align: center;
+    margin: auto;
+}
+
 .intro-text {
     position: relative;
     margin: auto;
 }
 
-.pguy {
-    /* max-width: 35%;
-    max-height: 35%; */
-    height: calc(20em + 10vw);
-    width: calc(20em + 10vw);
+.my-h3 {
+    color: #2e2cc8;
+    margin: 50px auto 0 auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
-h2 {
+.my-h2 {
     color: #2e2cc8;
     margin: 0px auto;
     font-size: calc(1.5rem + 1vw);
@@ -42,21 +48,11 @@ h2 {
     line-height: 2;
 }
 
-h1 {
+.my-h1 {
     color: #2e2cc8;
     margin: 10px auto;
     font-size: calc(3.625rem + 2vw);
     font-family: 'Sacramento', cursive;
-}
-
-h3 {
-    color: #2e2cc8;
-    margin: 50px auto 0 auto;
-    font-family: 'Montserrat', sans-serif;
-}
-
-p {
-    font-family: 'Montserrat', sans-serif;
 }
 
 .profile-block {
@@ -72,10 +68,10 @@ p {
     padding-bottom: 6.25vw;
 }
 
-hr {
+.my-hr {
     border-style: dotted none none;
     width: 10%;
-    border-color: #C0DEFF;
+    /* border-color: #2c4a69; */
     border-width: 8px;
     margin: 50px auto;
 }
@@ -85,20 +81,47 @@ hr {
     width: 200px;
 }
 
-.projects {
-
+.my-p {
+    margin-top: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.contact {
-    
+.navbar-my-font{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #C0DEFF;
 }
 
-.skill-row {
-    width: 50%;
-    margin: 100px auto;
-    text-align: left;
+.nav-link {
+    color: #2e2cc8 !important;
+}
+
+.my-carousel {
+    height: 480px;
+}
+
+.my-carousel-img {
+    height: 100%;
+}
+
+.carousel-control-next,
+.carousel-control-prev , .carousel-indicators {
+    filter: invert(100%);
 }
 
 .cursor {
     animation: blink 1s ease 0s infinite normal none;
+}
+
+.my-icon {
+    font-size: 50px;
+}
+
+.footer-link {
+    margin: 75px;
+}
+
+.contact {
+    background-color: #C0DEFF;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
 }
