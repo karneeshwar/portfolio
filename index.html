@@ -17,7 +17,7 @@
 <body id="actual-body">
     <nav class="navbar fixed-top navbar-expand-md navbar-my-font">
         <div class="container">
-            <a class="navbar-brand" href="#"></a>
+            <a class="navbar-brand" href="#home"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,10 +31,10 @@
                     <a class="nav-link active" href="#skills">Skills</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#workex">Work Experience</a>
+                    <a class="nav-link active" href="#education">Education</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#education">Education</a>
+                    <a class="nav-link active" href="#workex">Work Experience</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" href="#projects">Projects</a>
@@ -71,43 +71,67 @@
     <hr class="my-hr">
 
     <div class="skills-block" id="skills">
-        <h2 class="my-h2">Skills</h2>
+        <h2 class="my-h2 my-h2-padding">Skills</h2>
     </div>
     <hr class="my-hr">
 
     <div class="education-block" id="education">  
-        <h2 class="my-h2">Education</h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg"">
-                    <div class="card">
-                        <div>
-                            <img src="assets/nitt.jpeg" class="card-img-top education-card-img" alt="utd-logo">
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title">National Institute of Technology, Trichy</h5>
-                          <p class="card-text">Bachelor of Technology, Engineering</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-lg">
-                    <div class="card">
-                        <div>
-                            <img src="assets/utd.png" class="card-img-top education-card-img" alt="utd-logo">
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title">The University of Texas at Dallas</h5>
-                          <p class="card-text">Master of Science, Computer Science</p>
-                        </div>
-                      </div>
-                </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <h2 class="my-h2 my-h2-padding">Education</h2>
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             </div>
+            <div class="carousel-inner my-carousel">
+              <div class="carousel-item active">
+                <div class="mx-auto c-card">
+                    <div class="row">
+                        <div class="col-lg">
+                            <div class="card">
+                                <div>
+                                    <img src="assets/utd.png" class="card-img-top education-card-img" alt="utd-logo">
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">The University of Texas at Dallas</h5>
+                                  <p class="card-text">Master of Science, Computer Science</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="mx-auto c-card">
+                    <div class="row">
+                        <div class="col-lg">
+                            <div class="card">
+                                <div>
+                                    <img src="assets/nitt.jpeg" class="card-img-top education-card-img" alt="nitt-logo">
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">National Institute of Technology, Trichy</h5>
+                                  <p class="card-text">Bachelor of Technology, Engineering</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </div>
     <hr class="my-hr">
 
     <div class="work-block" id="workex">  
-        <h2 class="my-h2">Work Experience</h2>
+        <h2 class="my-h2 my-h2-padding">Work Experience</h2>
         <div class="container">
             <div class="row">
                 <div class="col-lg">
@@ -138,57 +162,7 @@
     <hr class="my-hr">
 
     <div class="projects-block" id="projects">
-        <div id="carouselExampleIndicators" class="carousel slide">
-            <h2 class="my-h2">Projects</h2>
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            </div>
-            <div class="carousel-inner my-carousel">
-              <div class="carousel-item active">
-                <div class="mx-auto c-card">
-                    <div class="row">
-                        <div class="col-lg">
-                            <div class="card">
-                                <div>
-                                    <img src="assets/copart.png" class="card-img-top work-card-img" alt="utd-logo">
-                                </div>
-                                <div class="card-body">
-                                  <h5 class="card-title">Copart, Inc</h5>
-                                  <p class="card-text">Data Scientist Intern</p>
-                                </div>
-                              </div>
-                        </div>
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="mx-auto c-card">
-                    <div class="row">
-                        <div class="col-lg">
-                            <div class="card">
-                                <div>
-                                    <img src="assets/rntbci-small.png" class="card-img-top work-card-img" alt="utd-logo">
-                                </div>
-                                <div class="card-body">
-                                  <h5 class="card-title">Renault Nissan Technology Business Center India</h5>
-                                  <p class="card-text">Engineer</p>
-                                </div>
-                              </div>
-                        </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+        <h2 class="my-h2 my-h2-padding">Projects</h2>
     </div>
 
     <div class="my-footer">

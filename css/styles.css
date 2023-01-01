@@ -48,6 +48,10 @@
     line-height: 2;
 }
 
+.my-h2-padding {
+    padding-top: 50px;
+}
+
 .my-h1 {
     color: #2e2cc8;
     margin: 10px auto;
@@ -73,7 +77,7 @@
     width: 10%;
     /* border-color: #2c4a69; */
     border-width: 8px;
-    margin: 50px auto;
+    margin: 50px auto auto auto;
 }
 
 .profile-img {
@@ -149,5 +153,5 @@
 .c-card {
     height: 50%;
     width: 50%;
-    margin-top: 50px;
+    margin-top: 30px;
 }
