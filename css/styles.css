@@ -18,6 +18,7 @@ body {
     position: absolute;
     left: 10%;
     top: 35%;
+    transform: rotate(180deg);
 }
 
 .intro-text {
@@ -54,10 +55,29 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profile {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+
 .starting-block {
     background-color: #C0DEFF;
     position: relative;
     padding-top: 6.25vw;
+    padding-bottom: 6.25vw;
+}
+
+hr {
+    border-style: dotted none none;
+    width: 10%;
+    border-color: #C0DEFF;
+    border-width: 8px;
+    margin: 50px auto;
 }
 
 .profile-img{
