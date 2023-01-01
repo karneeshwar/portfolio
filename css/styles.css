@@ -59,7 +59,7 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
-.profile {
+.profile-block {
     width: 50%;
     margin: auto;
     margin-top: 50px;
@@ -80,7 +80,7 @@ hr {
     margin: 50px auto;
 }
 
-.profile-img{
+.profile-img {
     height: 200px;
     width: 200px;
 }
