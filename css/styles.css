@@ -105,6 +105,21 @@
     color: #2e2cc8 !important;
 }
 
+.skills-block {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.skill-icons {
+    display: inline-block;
+    margin: 15px 15px;
+}
+
+.skill-icon-text {
+    margin: 5px 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .education-card-img {
     height: 200px;
     width: 200px;
@@ -128,10 +143,6 @@
 .carousel-control-next,
 .carousel-control-prev , .carousel-indicators {
     filter: invert(100%);
-}
-
-.cursor {
-    animation: blink 1s ease 0s infinite normal none;
 }
 
 .my-icon {
