@@ -22,8 +22,8 @@
 }
 
 .pguy {
-    height: calc(35em + 10vw);
-    width: calc(35em + 10vw);
+    height: calc(20em + 10vw);
+    width: calc(20em + 10vw);
     text-align: center;
     margin: auto;
 }
