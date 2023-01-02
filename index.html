@@ -27,6 +27,9 @@
                         <a class="nav-link active" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link active" href="#about-me">About me</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link active" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
@@ -64,7 +67,7 @@
         <img class="pguy" src="assets/programming_guy.png" alt="programming-guy-img">
     </div>
 
-    <div class="profile-block">
+    <div class="profile-block" id="about-me">
         <img class="profile-img" src="assets/karneeshwar.png" alt="karneeshwar-profile-picture">
         <p class="my-p">Welcome to my personal website. I am a computer science engineer, tech enthusiast, and an avid learner who loves to build cool things.</p>
     </div>
@@ -302,6 +305,44 @@
 
     <div class="projects-block" id="projects">
         <h2 class="my-h2 my-h2-padding">Projects</h2>
+        <div class="project-row">
+            <img class="project-img-right" src="assets/twitter.png" alt="twitter-icon">
+            <h4 class="my-h4-projects"><a href="https://github.com/karneeshwar/TwitterStreamingSentimentAnalysis">Twitter streaming sentiment analysis</a></h4>
+            <li class="my-li-projects">Developed a structured streaming application to perform sentiment analysis on filtered tweets based on keywords</li>
+            <li class="my-li-projects">Twitter API was used to retrieve data and streamed it via Kafka to PySpark. The tweets were classified as positive or negative using pipeline text classification and data were filtered for the given keywords, for instance: covid19, coronavirus</li>
+            <li class="my-li-projects">Logstash, Elasticsearch, and Kibana were used to store, visualize and analyze the polarity of filtered tweets</li>
+          </div>
+
+          <div class="project-row">
+            <img class="project-img-left" src="assets/movies.png" alt="movies-icon">
+            <h4 class="my-h4-projects"><a href="https://github.com/karneeshwar/BigDataAnalytics/blob/main/MovieSearchEngine.ipynb">Plot Summary Based Search Engine for Movies</a></h4>
+            <li class="my-li-projects">Built a search engine in Databricks using PySpark to list top 10 movies which are closely related to the user's search input based on plot summaries using the Carnegie Mellon University's Movie Summary Corpus with over 42000 movie summaries</li>
+            <li class="my-li-projects">The user search input could be either a single term or a query of multiple terms. MapReduce was used to compute TF-IDF and cosine similarity for single-term searches and multi-term queries respectively</li>
+          </div>
+
+          <div class="project-row">
+            <img class="project-img-right" src="assets/airport.png" alt="airport-icon">
+            <h4 class="my-h4-projects"><a href="https://github.com/karneeshwar/BigDataAnalytics/blob/main/PageRank.ipynb">Ranking busiest US airports using Pagerank algorithm</a></h4>
+            <li class="my-li-projects">Developed an algorithm in Databricks using PySpark to rank all the US domestic airports in decreasing order of their business</li>
+            <li class="my-li-projects">The Pagerank algorithm is a famous technique used to find how popular a website is based on the number of hits or how popular a professor is based on the number of citations to their work. Similarly, this algorithm is used here to compute the Pagerank of each airport based on their in- and out-degrees</li>
+          </div>
+
+          <div class="project-row">
+            <img class="project-img-left" src="assets/doordash.png" alt="doordash-icon">
+            <h4 class="my-h4-projects"><a href="assets/DoorDash.pdf">Doordash System Design</a></h4>
+            <li class="my-li-projects">Developed an Entity-Relationship diagram to represent all the entities and their relation in the DoorDash system</li>
+            <li class="my-li-projects">Mapped the ER diagram to a Relational Model by following the database normalization rules</li>
+            <li class="my-li-projects">Created tables and implemented 3 triggers and stored procedures using PL/SQL like door-dasher age check,
+                monthly pay stub computation for door-dasher, and overall bill calculation for customer</li>
+          </div>
+
+          <!-- <div class="project-row">
+            <img class="project-img-right" src="assets/extraction.png" alt="extraction-icon">
+            <h4 class="my-h4-projects"><a href="https://github.com/karneeshwar/BigDataAnalytics/blob/main/PageRank.ipynb">Exploring dimensionality reduction techniques</a></h4>
+            <li class="my-li-projects">Developed an algorithm in Databricks using PySpark to rank all the US domestic airports in decreasing order of their business</li>
+            <li class="my-li-projects">The Pagerank algorithm is a famous technique used to find how popular a website is based on the number of hits or how popular a professor is based on the number of citations to their work. Similarly, this algorithm is used here to compute the Pagerank of each airport based on their in- and out-degrees</li>
+          </div> -->
+
     </div>
 
     <div class="modal fade" id="exampleModal" tabindex="-1">

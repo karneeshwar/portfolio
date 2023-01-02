@@ -22,8 +22,8 @@
 }
 
 .pguy {
-    height: calc(20em + 10vw);
-    width: calc(20em + 10vw);
+    height: calc(35em + 10vw);
+    width: calc(35em + 10vw);
     text-align: center;
     margin: auto;
 }
@@ -60,9 +60,10 @@
 }
 
 .profile-block {
+    padding-top: 60px;
     width: 50%;
     margin: auto;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .starting-block {
@@ -155,6 +156,7 @@
 }
 
 .my-footer {
+    margin-top: 100px;
     background-color: #C0DEFF;
     padding-top: 3vw;
     padding-bottom: 3vw;
@@ -191,4 +193,37 @@
 
 .my-work-card:hover {
     transform: scale(1.15);
+}
+
+.project-row {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.project-img-left {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.project-img-right {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.my-h4-projects {
+    color: #2e2cc8;
+    margin: 50px auto 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.my-li-projects{
+    margin-top: 16px;
+    font-family: 'Montserrat', sans-serif;
+    width: 95%;
 }
